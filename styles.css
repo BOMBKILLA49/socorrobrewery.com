@@ -74,11 +74,8 @@ h2 { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
 .rule svg { width: 26px; height: 26px; }
 .lead { font-size: 1.12rem; color: #d9cdb6; max-width: 540px; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 2.2rem; }
-.hero-art { position: relative; justify-self: center; width: min(440px, 100%); }
-.arch { background: var(--cream); border-radius: 220px 220px 8px 8px; padding: 2rem 1.4rem 1.4rem; border: 8px solid var(--ink-3); outline: 2px solid var(--gold); outline-offset: 6px; box-shadow: 0 30px 80px rgba(0,0,0,.55); }
-.arch img { border-radius: 200px 200px 4px 4px; mix-blend-mode: multiply; }
-.badge-seal { position: absolute; left: -38px; bottom: 40px; width: 118px; height: 118px; border-radius: 50%; background: var(--rust); color: var(--cream); display: flex; flex-direction: column; align-items: center; justify-content: center; font: 500 .7rem/1.2 var(--head); letter-spacing: .2em; text-transform: uppercase; box-shadow: 0 0 0 5px var(--ink), 0 0 0 7px var(--rust); transform: rotate(-10deg); }
-.badge-seal b { font-size: 1.5rem; letter-spacing: .04em; }
+.hero-art { position: relative; justify-self: center; width: min(420px, 100%); }
+.hero-art img { filter: drop-shadow(0 30px 40px rgba(0,0,0,.6)); }
 .scroll-cue { position: absolute; left: 50%; bottom: 58px; width: 26px; height: 42px; border: 2px solid var(--muted); border-radius: 14px; transform: translateX(-50%); }
 .scroll-cue span { position: absolute; left: 50%; top: 8px; width: 4px; height: 8px; margin-left: -2px; background: var(--gold); border-radius: 2px; animation: cue 1.6s infinite; }
 @keyframes cue { 0% { opacity: 0; transform: translateY(0); } 40% { opacity: 1; } 100% { opacity: 0; transform: translateY(14px); } }
@@ -215,8 +212,7 @@ h2 { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
   .hero-inner { grid-template-columns: 1fr; gap: 3rem; text-align: center; }
   .rule, .lead { margin-inline: auto; }
   .hero-cta { justify-content: center; }
-  .hero-art { width: min(340px, 86%); }
-  .badge-seal { left: -20px; width: 96px; height: 96px; }
+  .hero-art { width: min(300px, 80%); }
   .scroll-cue { display: none; }
   .features, .pour-grid, .food-grid, .history-intro, .visit-grid { grid-template-columns: 1fr; }
   .beer-grid { grid-template-columns: 1fr; }
