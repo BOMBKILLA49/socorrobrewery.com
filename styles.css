@@ -107,7 +107,8 @@ h2 { font-size: clamp(2.1rem, 4.6vw, 3.4rem); }
 .notes li { font: 400 .72rem/1 var(--head); letter-spacing: .14em; text-transform: uppercase; border: 1px solid var(--line); padding: .45rem .7rem; color: var(--cream-2); }
 
 /* Quote band */
-.band { padding: 7rem 0; background: linear-gradient(rgba(21,17,13,.82), rgba(21,17,13,.82)), radial-gradient(circle at 30% 30%, var(--rust), transparent 60%), radial-gradient(circle at 80% 70%, var(--gold), transparent 60%), var(--ink-3); border-block: 1px solid var(--line); }
+.band { padding: 7rem 0; background: linear-gradient(rgba(21,17,13,.62), rgba(21,17,13,.72)), url(img/baca-house.jpg) center 45% / cover no-repeat, var(--ink-3); border-block: 1px solid var(--line); }
+.band blockquote, .band .btn { text-shadow: 0 2px 12px rgba(0,0,0,.6); }
 .band-hop { width: 46px; height: 46px; color: var(--gold); margin: 0 auto 1.4rem; }
 .band blockquote { font: italic 400 clamp(1.4rem, 3vw, 2.1rem)/1.5 var(--body); max-width: 860px; margin: 0 auto 2.2rem; }
 
